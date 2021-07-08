@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand;
+}
+
+.scrollbar__none::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #121212;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #575656;
+}
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background-color: #797878;
+}
+
+#nprogress .bar {
+  background: #db2777 !important;
+  height: 4px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #db2777, 0 0 5px #db2777 !important;
+}
+
+#nprogress .spinner-icon {
+  border: solid 3px transparent !important;
+  border-top-color: #db2777 !important;
+  border-left-color: #db2777 !important;
+}

@@ -1,0 +1,10 @@
+.btn__tmdb {
+  border-image-source: linear-gradient(to right, #31d3bd, #49cede, #029bc4);
+  border-image-slice: 1;
+}
+
+.tmdb {
+  background: -webkit-linear-gradient(#31d3bd, #49cede, #029bc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
